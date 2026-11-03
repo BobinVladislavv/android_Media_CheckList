@@ -8,10 +8,10 @@
     android:background="@color/surface">
 
     <TextView
-        android:id="@+id/movieTitle"
+        android:id="@+id/mediaEditTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Редактирование"
+        android:text="@string/mediaEditTitle_text"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@color/white"
@@ -23,7 +23,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Название"
+        android:hint="@string/editTextBoxNameHint"
         android:layout_marginBottom="12dp"
         app:boxCornerRadiusTopStart="14dp"
         app:boxCornerRadiusTopEnd="14dp"
@@ -31,7 +31,7 @@
         app:boxCornerRadiusBottomEnd="14dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editMovieTitle"
+            android:id="@+id/editMediaTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"/>
@@ -40,7 +40,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Дата старта (дд.мм.гггг)"
+        android:hint="@string/editTextBoxStartDateHint"
         android:layout_marginBottom="12dp"
         app:boxCornerRadiusTopStart="14dp"
         app:boxCornerRadiusTopEnd="14dp"
@@ -57,7 +57,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Дата конца (дд.мм.гггг)"
+        android:hint="@string/editTextBoxEndDateHint"
         android:layout_marginBottom="20dp"
         app:boxCornerRadiusTopStart="14dp"
         app:boxCornerRadiusTopEnd="14dp"
@@ -78,20 +78,20 @@
         android:gravity="end">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/cancelEditMovie"
+            android:id="@+id/cancelEditMedia"
             style="@style/Widget.Material3.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Отмена"
+            android:text="@string/cancelEditMedia_text"
             android:textColor="@color/text_secondary"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/saveEditMovie"
+            android:id="@+id/saveEditMedia"
             style="@style/Widget.MediaCheckList.Button.Primary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="Сохранить"/>
+            android:text="@string/saveEditMedia_text"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -22,7 +22,7 @@ public class Item {
     private String type;
     private LocalDate startDate;
     private LocalDate finalDate;
-    private Boolean viewed;
+    private boolean viewed;
 
     public Item(long id, String title, String type, LocalDate startDate, LocalDate finalDate, boolean viewed){
         this.id=id;
@@ -48,7 +48,7 @@ public class Item {
     public long getId() { return id; }
     public String getTitle() { return title; }
     public String getType() { return type; }
-    public String getStrintType() {
+    public String getStringType() {
         switch (type){
             case Item.TYPE_MOVIE:
                 return "Фильм/Сериал";

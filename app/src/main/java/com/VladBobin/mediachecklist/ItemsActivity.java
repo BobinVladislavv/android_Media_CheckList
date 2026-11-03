@@ -125,7 +125,7 @@ public class ItemsActivity extends AppCompatActivity {
     private void handleStart(Item item) {
         new AlertDialog.Builder(this)
                 .setTitle("Начать?")
-                .setMessage("Начать "+item.getStrintType()+" "+item.getTitle()+"?")
+                .setMessage("Начать "+item.getStringType()+" "+item.getTitle()+"?")
                 .setPositiveButton("Да", (d, w) -> {
                     Item copy = copyOf(item);
                     copy.setStartDate(LocalDate.now());
@@ -139,7 +139,7 @@ public class ItemsActivity extends AppCompatActivity {
     private void handleDelete(Item item) {
         new AlertDialog.Builder(this)
                 .setTitle("Удалить?")
-                .setMessage("Удалить выбранный(-ую) "+item.getStrintType()+" ("+item.getTitle()+")?")
+                .setMessage("Удалить выбранный(-ую) "+item.getStringType()+" ("+item.getTitle()+")?")
                 .setPositiveButton("Да", (d, w) -> {
                     viewModel.deleteItem(item);
                 })

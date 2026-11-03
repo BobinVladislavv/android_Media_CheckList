@@ -22,11 +22,11 @@ public class EditDialog {
 
     public static void show(Context context, Item item, OnItemEditedListener onSaved) {
         View layout = LayoutInflater.from(context).inflate(R.layout.edit_toast_activity, null);
-        EditText itemTitle = layout.findViewById(R.id.editMovieTitle);
+        EditText itemTitle = layout.findViewById(R.id.editMediaTitle);
         EditText startDate  = layout.findViewById(R.id.editStartDate);
         EditText finalDate  = layout.findViewById(R.id.editFinalDate);
-        Button saveButton   = layout.findViewById(R.id.saveEditMovie);
-        Button cancelButton = layout.findViewById(R.id.cancelEditMovie);
+        Button saveButton   = layout.findViewById(R.id.saveEditMedia);
+        Button cancelButton = layout.findViewById(R.id.cancelEditMedia);
 
         itemTitle.setText(item.getTitle());
         startDate.setText(item.getStartDate() == null ? "" :

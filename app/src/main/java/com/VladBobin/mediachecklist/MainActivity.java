@@ -17,18 +17,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*EdgeToEdge.enable(this);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });*/
-
         Button movieButton = findViewById(R.id.movieButton);
         Button booksButton = findViewById(R.id.booksButton);
         Button gamesButton = findViewById(R.id.gamesButton);
 
-        SetOpenActivityToButton(movieButton, Item.TYPE_MOVIE, "Фильмы/Сериалы");
+        SetOpenActivityToButton(movieButton, Item.TYPE_MOVIE,"Фильмы/Сериалы");
         SetOpenActivityToButton(booksButton, Item.TYPE_BOOK, "Книги");
         SetOpenActivityToButton(gamesButton, Item.TYPE_GAME, "Игры");
     }

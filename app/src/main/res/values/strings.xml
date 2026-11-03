@@ -1,4 +1,23 @@
 <resources>
     <string name="app_name">MediaCheckList</string>
     <string name="ItemsActivity_name">Список</string>
+    <string name="movieType">Фильмы/Сериалы</string>
+    <string name="gamesType">Игры</string>
+    <string name="booksType">Книги</string>
+    <string name="app_name_Title">MediaCheckList</string>
+    <string name="movieButton_text">🎬   Фильмы/Сериалы</string>
+    <string name="gamesButton_text">🎮   Игры</string>
+    <string name="booksButton_text">📚   Книги</string>
+    <string name="mediaEditTitle_text">Редактирование</string>
+    <string name="editTextBoxNameHint">Название</string>
+    <string name="editTextBoxStartDateHint">Дата старта (дд.мм.гггг)</string>
+    <string name="editTextBoxEndDateHint">Дата конца (дд.мм.гггг)</string>
+    <string name="cancelEditMedia_text">Отмена</string>
+    <string name="saveEditMedia_text">Сохранить</string>
+    <string name="itemStart">Начать</string>
+    <string name="itemEdit">Редактирование</string>
+    <string name="itemDelete">Удалить</string>
+    <string name="itemsTitle">Название группы</string>
+    <string name="searchItem">Поиск...</string>
+    <string name="addItemButton_text">+ Добавить</string>
 </resources>

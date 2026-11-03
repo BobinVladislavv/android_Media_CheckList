@@ -62,7 +62,7 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:padding="8dp"
-                android:contentDescription="Начать"
+                android:contentDescription="@string/itemStart"
                 android:scaleType="fitCenter"/>
 
             <ImageButton
@@ -72,7 +72,7 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:padding="8dp"
-                android:contentDescription="Редактирование"
+                android:contentDescription="@string/itemEdit"
                 android:scaleType="fitCenter"/>
 
             <CheckBox
@@ -91,7 +91,7 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:padding="8dp"
-                android:contentDescription="Удалить"
+                android:contentDescription="@string/itemDelete"
                 android:scaleType="fitCenter"/>
         </LinearLayout>
     </LinearLayout>
