@@ -81,7 +81,6 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
-                android:buttonTint="@color/primary"
                 android:layout_marginHorizontal="2dp"/>
 
             <ImageButton
